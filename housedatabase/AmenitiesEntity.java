@@ -17,9 +17,7 @@ public class AmenitiesEntity {
 
 
 
-       /*                                                                           */
-      /*  Σχέση  Πολλά-Προς-Ένα ((AmenitiesEntity))-((ROOMENTITY_AMENITIESENTITY)) */
-     /*                                                                           */
+                                                                         */
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "amenitiesEntity")
     private ROOMENTITY_AMENITIESENTITY roomentity_amenitiesentity;
 
